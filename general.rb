@@ -48,7 +48,8 @@ class Author
   attr_accessor :names
   def initialize(names); @names = names.split(" and ") end
   def to_full_s; prepare(@names).join(" and ") end
-  def to_short_s; @names.map { |name| shortName(name) }.join(" and ") end
+  # def to_short_s; @names.map { |name| shortName(name) }.join(" and ") end
+  def to_short_s; @names.map { |name| name }.join(" and ") end
   def to_last_s; @names.map { |name| lastName(name) }.join(", ") end
   def shortName(name)
     # Abbreviate all but last name, Percy Liang -> P. Liang
