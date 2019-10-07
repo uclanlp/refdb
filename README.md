@@ -33,3 +33,6 @@ Just use the following command:
     make
 
 New ``all.bib`` and ``all.html`` will be generated for use.
+
+#### 4. Push to Github
+Push your own bib entries ``data/<name>.rb``, new ``all.bib``, and new ``all.html`` to Github.
