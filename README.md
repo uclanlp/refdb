@@ -3,7 +3,7 @@ Make sure you have installed Ruby.
 
 #### 1. Create/Edit your own bib
 
-In ``data/<name>.rb``, put all your bib entries like the following format:
+In ``data/<name>.rb``, put all your bib entries like this:
 
     entry!('zhou2019genderlessbias',
         emnlp(2019),
@@ -17,12 +17,14 @@ In ``data/<name>.rb``, put all your bib entries like the following format:
         author('Liunian Harold Li and Mark Yatskar and Da Yin and Cho-Jui Hsieh and Kai-Wei Chang'),
     nil)
 
-You can see some predefine conference names in ``data/venues.rb`` or define a new conference name by yourself.
-Notice that the format for the authors is ``FIRST_NAME LAST_NAME`` rather than ``LAST_NAME, FIRST_NAME``.
+Notice we use the follwing format:
+- Key: last_name_of_first_author year keyword
+- Conference/Journal: you can see some predefine conference names in ``data/venues.rb`` or define a new conference or journal name by yourself. When defining a new name, use short-handing for conferences if possible, and use the full name for journals. 
+- Author: use the format ``FIRST_NAME LAST_NAME`` and make sure names are separated by "and".
 
 #### 2. Put your personal website link (optional)
 
-Put your personal website link in ``data/links.rb``
+Put your personal website link in ``data/links.rb``. Generating ``all.html`` will use this link information.
 
 #### 3. Generate all.bib and all.html
 
