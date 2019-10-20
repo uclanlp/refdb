@@ -29,7 +29,7 @@ nil)
 entry!('ahmad2018sentence',
     title('Learning Robust, Transferable Sentence Representations for Text Classification'),
     author('Wasi Uddin Ahmad and Xueying Bai and Nanyun Peng and Kai-Wei Chang'),
-    arxiv(2018, id='1810.00681v1'),
+    arxiv(2018, id='1810.00681'),
 nil)
 
 entry!('ahmad2018intent',
