@@ -10,12 +10,6 @@ entry!('zhao2018genderbiasincoref',
        author('Jieyu Zhao and Tianlu Wang and Mark Yatskar and Vicente Ordonez and Kai-Wei Chang'),
        nil
 )
-entry!('zhao2018genderbiasincoref',
-       naacl(2018),
-       title('Gender Bias in Coreference Resolution: Evaluation and Debiasing Methods'),
-       author('Jieyu Zhao and Tianlu Wang and Mark Yatskar and Vicente Ordonez and Kai-Wei Chang'),
-       nil
-)
 entry!('zhao2018gnglove',
        emnlp(2018),
        title('Learning Gender-Neutral Word Embeddings'),
