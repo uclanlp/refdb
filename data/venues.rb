@@ -8,9 +8,9 @@ def jmlr(year, volume); article('Journal of Machine Learning Research', year, vo
 def tacl(year, volume); article('Transactions of the Association for Computational Linguistics', year, volume) end
 
 ### Natural language processing
-def naacl(year); [inproceedings('NAACL', year), aclpub] end
-def coling(year); [inproceedings('COLING', year), aclpub] end
-def acl(year); [inproceedings('ACL', year), aclpub] end
+def naacl(year); [inproceedings('NAACL', year) ] end
+def coling(year); [inproceedings('COLING', year) ] end
+def acl(year); [inproceedings('ACL', year) ] end
 def emnlp(year); [inproceedings('EMNLP', year)] end
 def conll(year); [inproceedings('CoNLL', year)] end
 def lrec(year); [inproceedings('LREC', year)] end
